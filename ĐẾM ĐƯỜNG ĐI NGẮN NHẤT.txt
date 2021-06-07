@@ -1,0 +1,44 @@
+Cho đồ thị vô hướng liên thông G = (V, E) gồm N đỉnh và M cạnh, các đỉnh được đánh số từ 1 tới N và các cạnh được đánh số từ 1 tới M.
+
+Nhiệm vụ của bạn là hãy tìm đường đi ngắn nhất từ 1 tới N và đếm xem có bao nhiêu tuyến đường có độ dài ngắn nhất như vậy?
+
+Input:
+
+Dòng đầu tiên hai số nguyên N và M (1 ≤ N ≤ 10^5, 1 ≤ M ≤ max(N*(N-1)/2, 10^6).
+M dòng tiếp theo, mỗi dòng gồm 3 số nguyên u, v, c cho biết có cạnh nối giữa đỉnh u và v có độ dài bằng c (1 ≤ c ≤ 10^6).
+Output: 
+
+Với mỗi test, in ra 2 số nguyên là độ dài đường đi ngắn nhất và số lượng đường đi ngắn nhất. Input đảm bảo số lượng đường đi ngắn nhất không vượt quá 10^18.
+
+ 
+
+Ví dụ:
+
+Input
+
+
+5 6
+
+1 2 6
+
+1 3 7
+
+2 4 2
+
+3 4 9
+
+3 5 3
+
+4 5 2
+
+Output
+
+10 2
+
+ 
+
+ 
+
+Có 2 tuyến đường ngắn nhất: 1 -> 3 -> 5 và 1 -> 2 -> 4 -> 5.
+
+ 

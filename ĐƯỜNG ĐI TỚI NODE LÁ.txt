@@ -1,0 +1,51 @@
+Cho một cây có N node, gốc tại 1. Với mỗi node lá, bạn hãy in ra đường đi từ node gốc tới nó.
+
+
+
+Input:
+
+Dòng đầu tiên là số lượng bộ test T( T≤ 20).
+
+Mỗi test bắt đầu bằng số nguyên N (1 ≤ N ≤ 1000).
+
+N-1 dòng tiếp theo, mỗi dòng gồm 2 số nguyên u, v cho biết node u nối với node v.
+
+Output: 
+
+Với mỗi test, in ra K dòng, trong đó K là số lượng node lá. Mỗi dòng là đường đi từ node gốc tới node lá X. Node lá nào có nhãn nhỏ hơn, in ra trước.
+
+Test ví dụ:
+
+Input:
+
+
+
+2
+
+5
+
+1 2
+
+1 3
+
+2 4
+
+2 5
+
+4
+
+1 2
+
+2 3
+
+3 4
+
+Output
+
+1 3
+
+1 2 4
+
+1 2 5
+
+1 2 3 4

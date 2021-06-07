@@ -1,0 +1,46 @@
+Tại một cây rút tiền ATM thế hệ mới, Tý muốn rút ra W đồng. Các tờ tiền trong máy ATM có mệnh giá từ 1000, 2000, 3000, 5000, 1000*10, 2000*10, 3000*10, 5000*10, …, 1000*10c, 2000*10c, 3000*10c, 5000*10c.
+
+Chiếc máy ATM đã được tối ưu hóa sao cho số lượng tờ tiền đưa ra cho khách hàng là nhỏ nhất.
+
+Các bạn hãy thử tính xem Tý sẽ nhận được bao nhiêu tờ tiền? Và có bao nhiêu cách thỏa mãn?
+
+Input
+
+Số đầu tiên là số lượng bộ test T (T ≤ 1000). Mỗi test gồm 2 dòng:
+ Dòng thứ nhất chứa số nguyên W.
+ Dòng thứ hai chứa số nguyên c.
+Output
+
+ Với mỗi test, hãy in ra số lượng tờ tiền nhỏ nhất mà máy ATM sinh ra và số tổ hợp các tờ tiền khác nhau thỏa mãn tổng giá trị của chúng bằng W.
+ Nếu không có đáp án, in ra số 0 trên một dòng.
+Ví dụ:
+
+Input
+
+3
+
+2000
+
+1
+
+7000
+
+1
+
+1500
+
+1
+
+ 
+Output
+1 1
+
+2 1
+
+0
+
+ 
+
+Subtask 1: 30% số test đầu tiên, c ≤ 5, W ≤ 109.
+
+Subtask 2: 70% số test còn lại, c ≤ 15, W ≤ 1018.

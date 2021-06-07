@@ -1,0 +1,48 @@
+Trên cánh đồng có N hàng rào. Mỗi hàng rào được miêu tả bằng một đoạn thẳng đứng hoặc ngang trong mặt phẳng hai chiều. Nếu hai hàng rào gặp nhau, chúng chỉ có thể gặp nhau ở đầu mút của đoạn thẳng. Mỗi hàng rào chỉ giao với hai hàng rào khác tại các kiểu đầu mút của đoạn thẳng.
+
+Có M chú bò đang ăn cỏ trên cánh đồng. Mỗi chú bò được thể hiện bằng một điểm trên mặt phẳng tọa độ hai chiều. Input đảm bảo không có chú bò nào nằm trên đoạn thẳng đại diện cho các hàng rào, và không có hai chú bò có cùng tọa độ. Các chú bò có thể di chuyển tự do trong vùng bao quanh bởi các hàng rào và tạo thành bầy đàn.
+
+Các bạn hãy tìm xem đàn bò nào có số lượng nhiều nhất?
+
+Input: Dòng đầu ghi số bộ test (không quá 10). Mỗi bộ test như sau:
+
+Dòng đầu tiên là 2 số N, M (1 <= N, M <= 500).
+N dòng tiếp theo, mỗi dòng gồm 4 số nguyên Ax, Ay, Bx, By mô tả tọa độ của một hàng rào.
+M dòng tiếp theo, mỗi dòng gồm 2 số nguyên Cx, Cy mô tả tọa độ của một chú bò.
+Các tọa độ có giá trị trong khoảng từ 0 tới 10^6.
+Output: 
+
+In ra số lượng lớn nhất có thể của một đàn bò.
+Ví dụ:
+
+Input:
+
+
+
+1
+
+7 3
+
+0 0 10 0
+
+10 0 10 5
+
+12 5 10 5
+
+10 5 1 5
+
+12 5 12 7
+
+0 7 12 7
+
+0 7 0 0
+
+3 4
+
+6 6
+
+17 3
+
+Output:
+
+2

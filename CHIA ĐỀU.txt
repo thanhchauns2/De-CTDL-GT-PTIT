@@ -1,0 +1,35 @@
+Cho dãy số A có N phần tử và số K. Hãy đếm số cách chia dãy A thành K nhóm các phần tử liên tiếp sao cho tổng giá trị của mỗi nhóm đều bằng nhau.
+
+Input
+
+Dòng đầu ghi hai số N và K (0 < N ≤ 12; 0 < K < N ).
+
+Dòng thứ 2 ghi N số của dãy A (-10000 ≤ A[i] ≤ 10000)
+
+Output
+
+In ra số cách thỏa mãn
+
+Ví dụ
+
+Input
+
+
+
+3 2
+
+-2 0 -2
+
+Output
+
+2
+
+Input
+
+3 2
+
+1 2 3
+
+Output
+
+1

@@ -1,0 +1,46 @@
+Cho N điểm trên mặt phẳng tọa độ Oxy. Bạn cần tìm khoảng cách ngắn nhất giữa hai điểm trong số N điểm đã cho.
+
+Input:
+
+Dòng đầu tiên là số lượng bộ test T (T ≤ 20).
+
+Mỗi test bắt đầu bởi một số nguyên N (1 ≤ N ≤ 100 000).
+
+N dòng tiếp theo, mỗi dòng gồm 2 số nguyên X[i], Y[i] (-10^6 ≤ X[i], Y[i] ≤ 10^6).
+
+Output: 
+
+Với mỗi test, in ra đáp án trên một dòng với độ chính xác 6 chữ số sau dấu phẩy.
+
+Ví dụ:
+
+Input
+2
+
+6
+
+2 3
+
+12 30
+
+40 50
+
+5 1
+
+12 10
+
+3 4
+
+3
+
+0 0
+
+3 0
+
+4 0
+
+Output
+
+1.414214
+
+1.000000

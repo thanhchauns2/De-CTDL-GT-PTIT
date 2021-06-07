@@ -1,0 +1,45 @@
+Cho một cây có N node, gốc tại  1. Độ cao của một node u được tính bằng khoảng cách từ u tới node gốc. Độ cao của node gốc bằng 0. Nhiệm vụ của bạn là hãy tìm node xa node gốc nhất và in ra độ cao của node này.
+
+Input:
+
+Dòng đầu tiên là số lượng bộ test T( T≤ 20).
+
+Mỗi test bắt đầu bằng số nguyên N (1 ≤ N ≤ 100 000).
+
+N-1 dòng tiếp theo, mỗi dòng gồm 2 số nguyên u, v cho biết node u nối với node v.
+
+Output: 
+
+Với mỗi test, in ra một số nguyên là độ cao của cây.
+
+Test ví dụ:
+
+Input:
+
+
+
+2
+
+5
+
+1 2
+
+1 3
+
+2 4
+
+2 5
+
+4
+
+1 2
+
+2 3
+
+3 4
+
+Output 
+
+2
+
+3

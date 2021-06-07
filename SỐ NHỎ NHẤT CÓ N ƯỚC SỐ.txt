@@ -1,0 +1,28 @@
+Cho số nguyên dương N. Nhiệm vụ của bạn là tìm số K nhỏ nhất, sao cho K có đúng N ước. Input đảm bảo rằng đáp án không vượt quá 10^18.
+
+Input:
+
+Dòng đầu tiên là số lượng bộ test T (T ≤  20).
+
+Mỗi test gồm 1 số nguyên N ( 1 ≤  N ≤  1000).
+
+Output:  Với mỗi test, in ra đáp án trên một dòng.
+
+Ví dụ:
+
+Input
+
+
+2
+
+4
+
+6
+
+Output
+
+6
+
+12
+
+ 

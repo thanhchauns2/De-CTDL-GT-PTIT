@@ -1,0 +1,55 @@
+Cho một bảng kích thước NxM, được chia thành lưới ô vuông đơn vị N dòng M cột. Trên các ô của bảng ghi số 0 hoặc 1. Các dòng của bảng được đánh số 1, 2... N theo thứ tự từ trên xuống dưới và các cột của bảng được đánh số 1, 2..., M theo thứ tự từ trái qua phải
+
+Yêu cầu: Hãy tìm một hình chữ nhật gồm các ô của bảng thoả mãn các điều kiện sau:
+
+1 - Hình chữ nhật đó chỉ gồm các số 1
+
+2 - Cạnh hình chữ nhật song song với cạnh bảng
+
+3 - Diện tích hình chữ nhật là lớn nhất có thể
+
+Input:
+
+Dòng đầu tiên là số lượng bộ test T (T ≤ 20).
+
+Mỗi test bắt đầu bởi hai số nguyên N và M (1 ≤ M, N ≤ 500).
+
+N dòng tiếp theo, mỗi dòng gồm M số nguyên 0 hoặc 1.
+
+Output: 
+
+Với mỗi test, in ra diện tích hình chữ nhật lớn nhất tìm được.
+
+Ví dụ:
+
+Input
+
+1
+
+11 13
+
+0 0 0 0 0 1 0 0 0 0 0 0 0
+
+0 0 0 0 1 1 1 0 0 0 0 0 0
+
+0 0 1 1 1 1 1 1 1 0 0 0 0
+
+0 0 1 1 1 1 1 1 1 0 0 0 0
+
+0 1 1 1 1 1 1 1 1 1 0 0 0
+
+1 1 1 1 1 1 1 1 1 1 1 0 0
+
+0 1 1 1 1 1 1 1 1 1 0 0 0
+
+0 0 1 1 1 1 1 1 1 0 0 0 0
+
+0 0 1 1 1 1 1 1 1 0 0 0 0
+
+0 0 0 0 1 1 1 0 0 0 0 1 1
+
+0 0 0 0 0 1 0 0 0 0 0 1 1
+
+Output
+
+49

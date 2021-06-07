@@ -1,0 +1,32 @@
+Một mê cung được thiết kế có một số cánh cửa, ban đầu đều đóng. Trong mê cung có đúng hai viên kim cương. Hãy đếm số cánh cửa cần phải mở ra là ít nhất để có thể lấy được cả hai viên kim cương.
+
+Input
+
+Dòng đầu ghi hai số N và M là số hàng và số cột của mê cung (2 ≤ n,m ≤ 100)
+N dòng tiếp theo, mỗi dòng có M ký tự mô tả mê cung
+Ký tự . mô tả ô trống
+Ký tự * mô tả vật cản
+Ký tự # mô tả cánh cửa
+Ký tự $ mô tả viên kim cương
+Người chơi có thể lựa chọn bất cứ vị trí xuất phát nào từ bên ngoài mê cung. Mỗi bước có thể đi lên, đi xuống hoặc sang trái, sang phải đúng 1 ô. Không được đi chéo.
+
+Output
+
+Ghi ra số cánh cửa ít nhất cần được mở ra.
+
+Ví dụ
+Input
+
+
+5 9
+
+****#****
+*..#.#..*
+****.****
+*$#.#.#$*
+*********
+
+
+Output
+
+4
