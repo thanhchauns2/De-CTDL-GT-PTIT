@@ -11,12 +11,14 @@ Dòng đầu tiên là số lượng số lộc phát tìm được. Dòng thứ
 
 Input
 
+
+
 2
 
 2
 
 3
-Output 
+Output
 
 6
 
