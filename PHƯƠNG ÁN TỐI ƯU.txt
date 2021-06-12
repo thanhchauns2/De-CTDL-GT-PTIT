@@ -1,0 +1,26 @@
+Cho ai, ci , W, N (i =1, 2,..,N; N£100) là những số nguyên dương  và tập hợp
+
+      png(1)
+
+Hãy viết chương trình tìm phương án tối ưu XOPT =(x1,x2,..,xN) và giá trị tối ưu FOPT=F(XOPT) của hàm mục tiêu
+
+Png(2); với Png(3)  .
+
+      Dữ liệu vào cho bởi file data.in theo khuôn dạng sau:
+
+Dòng đầu tiên ghi lại số tự nhiên N và W. Hai số được viết cách nhau một vài khoảng trống;
+Dòng kế tiếp ghi lại N số cj (j=1,2,..,N). Hai số được viết cách nhau một vài khoảng trống;
+Dòng kế tiếp ghi lại N số aj (j=1,2,..,N). Hai số được viết cách nhau một vài khoảng trống;
+Giá trị tối ưu FOPT và phương án XOPT tìm được sẽ liệt kê trên màn hình theo khuôn dạng:
+
+Dòng đầu tiên ghi lại giá trị tối ưu FOPT;
+Dòng kế tiếp ghi lại phương án tối ưu XOPT. Hai phần tử khác nhau của phương án tối ưu được viết cách nhau bởi một khoảng trống.
+Ví dụ sau sẽ minh họa khuôn dạng cho file data.in  của bài toán.
+
+                  data.in                                                                           
+
+4                      10                               
+
+6          5          3          7    
+
+5          4          6          5	

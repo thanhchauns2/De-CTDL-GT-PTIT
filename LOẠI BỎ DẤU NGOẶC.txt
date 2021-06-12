@@ -1,0 +1,22 @@
+Cho biểu thức P chỉ chứa các ký tự ‘(’, ‘)’ và các ký tự. Không có phép toán nào trong biểu thức P. Nhiệm vụ của bạn là thực hiện ít nhất các phép loại bỏ các ký tự ‘(’, ‘)’ để P trở thành biểu thức đúng. Chú ý: một biểu thức chỉ có 1 ký tự chữ (không có dấu ngoặc) hoặc một biểu thức rỗng thì không được xem là biểu thức đúng.
+
+Nếu có nhiều hơn một biểu thức đúng với cùng số phép loại bỏ ít nhất hãy đưa ra tất cả các biểu thức đúng theo thứ tự từ điển.
+
+Input:
+
+Dòng đầu tiên đưa vào số lượng bộ test T.
+Những dòng kế tiếp đưa vào các bộ test. Mỗi bộ test là một biểu thức P được viết trên một dòng.
+T, P thỏa mãn ràng buộc: 1≤T ≤100; 1≤length(P)≤100.
+Output:
+
+Đưa ra kết quả mỗi test theo từng dòng. Nếu không có đáp án, in ra -1.
+Input
+
+2
+()())()
+(u)())()
+
+Output
+(())() ()()()	
+(u())() (u)()() 
+

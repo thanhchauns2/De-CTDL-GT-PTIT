@@ -1,0 +1,41 @@
+Cho biểu thức toán học đúng, bạn cần tìm tất cả các biểu thức đúng có thể bằng cách xóa bỏ các cặp dấu ngoặc tương ứng với nhau từ biểu thức ban đầu.
+
+Ví dụ: Cho biểu thức: (2+(2*2)+2) Các biểu thức tìm được:
+
+(2+2*2+2)
+
+2+(2*2)+2
+
+2+2*2+2
+
+Các biểu thức (2+2*2)+2 và 2+(2*2+2) không được chấp nhận vì không xóa đi các cặp dấu ngoặc tương ứng với nhau
+
+Input: Một dòng chứa biểu thức gồm các số nguyên không âm, các dấu +, -, *, / và dấu ngoặc đơn.
+
+Biểu thức không quá 200 kí tự, có chứa ít nhất 1 và không quá 10 cặp dấu ngoặc.
+
+Output: In ra tất các các biểu thức khác nhau thỏa mãn đầu bài theo thứ tự từ điển
+
+Ví dụ
+
+Input
+
+
+
+(1+(2*(3+4)))
+
+Output
+
+(1+(2*3+4))
+
+(1+2*(3+4))
+
+(1+2*3+4)
+
+1+(2*(3+4))
+
+1+(2*3+4)
+
+1+2*(3+4)
+
+1+2*3+4

@@ -1,0 +1,41 @@
+Một đồ thị N đỉnh là một cây, nếu như nó có đúng N-1 cạnh và giữa 2 đỉnh bất kì, chỉ tồn tại duy nhất 1 đường đi giữa chúng.
+
+Cho một đồ thị N đỉnh và N-1 cạnh, hãy kiểm tra đồ thị đã cho có phải là một cây hay không?
+
+Input:
+
+Dòng đầu tiên là số lượng bộ test T (T ≤ 20).
+Mỗi test bắt đầu bởi số nguyên N (1 ≤ N ≤ 1000).
+N-1 dòng tiếp theo, mỗi dòng gồm 2 số nguyên u, v cho biết có cạnh nối giữa đỉnh u và v.
+Output: 
+
+Với mỗi test, in ra “YES” nếu đồ thị đã cho là một cây, in ra “NO” trong trường hợp ngược lại.
+Ví dụ:
+
+Input
+
+
+2
+
+4
+
+1 2
+
+1 3
+
+2 4
+
+4
+
+1 2
+
+1 3
+
+2 3
+
+
+Output
+
+YES
+
+NO

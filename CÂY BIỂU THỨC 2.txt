@@ -1,0 +1,25 @@
+Cho một cây biểu thức là một cây nhị phân đầy đủ bao gồm các phép toán +, -, *. / và một số toán hạng có giá trị nguyên. Nhiệm vụ của bạn là hãy tính toán giá trị biểu thức được biểu diễn trên cây nhị phân đầy đủ. Ví dụ với cây dưới đây là biểu diễn của biểu thức P = ( (5*4) + (100-20)) sẽ cho ta giá trị là 100.
+
+Input:
+
+Dòng đầu tiên đưa vào số lượng bộ test T.
+Những dòng tiếp theo đưa vào các bộ test. Mỗi bộ test là gồm hai dòng: dòng thứ nhất đưa vào N là số lượng node của cây; dòng thứ hai đưa vào nội dung các node của cây; các node được viết cách nhau một vài khoảng trống. Các số có giá trị nguyên không vượt quá 1000.
+T, N, P thỏa mãn ràng buộc : 1≤T≤100; 1≤N, lenght(P)≤100.
+Output:
+
+Đưa ra giá trị của cây biểu thức.
+     Ví dụ:
+
+Input
+
+
+
+2
+7
++ * - 5 4 100 20
+3
+- 4 7 
+
+Output
+100
+-3

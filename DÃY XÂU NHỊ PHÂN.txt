@@ -20,14 +20,19 @@ Ví dụ:
 
 Input
 
+Output
 2
 
-6 4
+3 1
 
-8 19
-Output
+4 3
+
+
 
 
 0
 
 1
+
+ 
+
